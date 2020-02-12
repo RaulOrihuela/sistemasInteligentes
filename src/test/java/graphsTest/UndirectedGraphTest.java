@@ -28,7 +28,7 @@ public class UndirectedGraphTest {
         europe.addEdge("Netherlands", "Netherlands");
 
         System.out.println(
-                "Undirected IGraph 1\n" +
+                "Undirected Graph 1\n" +
                 europe.toString() +
                 "===========================\n"
         );
@@ -44,7 +44,7 @@ public class UndirectedGraphTest {
         europe_2.addEdge("Switzerland", "Italy");
 
         System.out.println(
-                "Undirected IGraph 2\n" +
+                "Undirected Graph 2\n" +
                  europe_2.toString() +
                  "===========================\n"
         );

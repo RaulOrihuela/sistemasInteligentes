@@ -1,6 +1,8 @@
 package graphs;
 
-public class UndirectedGraph<T> extends DirectedGraph<T> {
+import java.util.ArrayList;
+
+public class UndirectedGraph<T> extends Graph<T> {
 
     public void addEdge(T source, T destination) {
         //ADD DESTINATION TO THE LIST OF ADJACENT NODES OF SOURCE
@@ -49,4 +51,12 @@ public class UndirectedGraph<T> extends DirectedGraph<T> {
         }
         return true;
     }
+
+    public Boolean isConnected(){
+        //THE FIRST VERTEX ON THE KEY SET
+        T randomVertex = new ArrayList<>(disperseMatrix.keySet()).get(0);
+        //IF ANY SOURCE YIELDS A CONNECTED PATH, THEN THE GRAPH IS CONNECTED
+        return (this.isConnected(randomVertex));
+    }
+
 }

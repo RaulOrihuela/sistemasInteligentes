@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf9354cb-3d88-49af-9647-b5da23957caf" name="Default Changelist" comment="" />
+    <list default="true" id="cf9354cb-3d88-49af-9647-b5da23957caf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphs/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphs/DirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphs/UndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphs/UndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/graphsTest/DirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/graphsTest/DirectedGraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/graphsTest/DirectedGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +52,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/graphs/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/graphs/IGraph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
@@ -54,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/graphs/DirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state>
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +75,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/graphs/UndirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="408">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#1078#1079#0" expanded="true" />
                 <element signature="e#1129#1130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/graphs/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1649">
+              <caret line="97" column="46" lean-forward="true" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,16 +109,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/graphs/DirectedGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphs/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/graphs/DirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphs/UndirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/test/java/graphsTest/DirectedGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graphs/DirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java" />
       </list>
     </option>
   </component>
@@ -115,6 +138,7 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -185,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581533066348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581535715769" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -272,20 +296,11 @@
       <workItem from="1581438470639" duration="12949000" />
       <workItem from="1581460145113" duration="7761000" />
       <workItem from="1581480218754" duration="2592000" />
-      <workItem from="1581528534855" duration="124000" />
+      <workItem from="1581528534855" duration="2841000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.11 at 17h 55m 08s.xml">
-      <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.11 at 17h 57m 20s.xml">
-      <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.11 at 18h 00m 21s.xml">
-      <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.11 at 18h 00m 55s.xml">
       <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
     </history-entry>
@@ -307,9 +322,18 @@
     <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.11 at 22h 20m 28s.xml">
       <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.12 at 12h 44m 50s.xml">
+      <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.12 at 13h 26m 10s.xml">
+      <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="graphsTest_in_sistemasInteligentes - 2020.02.12 at 13h 26m 22s.xml">
+      <configuration name="graphsTest in sistemasInteligentes" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33975000" />
+    <option name="totallyTimeSpent" value="36692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -320,7 +344,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.2647504" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -330,7 +354,7 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Duplicate detector" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.41734862" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -346,6 +370,38 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2647504" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Duplicate detector" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.41734862" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -358,37 +414,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/graphsTest/DirectedGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/graphs/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/graphs/IGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graphs/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="46" lean-forward="true" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graphs/UndirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="408">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#1078#1079#0" expanded="true" />
             <element signature="e#1129#1130#0" expanded="true" />
@@ -398,8 +446,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graphs/DirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state>
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/graphsTest/DirectedGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/graphsTest/UndirectedGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

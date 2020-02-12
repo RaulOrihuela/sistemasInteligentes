@@ -28,7 +28,7 @@ public class DirectedGraphTest {
         europe.addEdge("Netherlands", "Netherlands");
 
         System.out.println(
-                "Directed IGraph 1\n" +
+                "Directed Graph 1\n" +
                         europe.toString() +
                         "===========================\n"
         );
