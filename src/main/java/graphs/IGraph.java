@@ -14,4 +14,11 @@ public interface IGraph<T> {
 
     Boolean isConnected();
     Boolean isConnected(T source);
+
+    void searchBF(T source);
+    Boolean searchBF(T source, T search);
+    void searchDF(T source);
+    Boolean searchDF(T source, T search);
+    void searchLDF(T source, Integer limit);
+    Boolean searchLDF(T source, Integer limit, T search);
 }
